@@ -1,6 +1,7 @@
 package com.appsdeveloper.ws.api.ResourceServer.controllers;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PostAuthorize;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -17,7 +18,7 @@ import com.appsdeveloper.ws.api.ResourceServer.response.UserRest;
 @RequestMapping("/users")
 public class UsersController {
 	
-
+	
 
 	@GetMapping("/status/check")
 	public String status() {
