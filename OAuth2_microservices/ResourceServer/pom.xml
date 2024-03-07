@@ -9,11 +9,11 @@
 		<version>3.2.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.appsdeveloper.ws.api</groupId>
+	<groupId>com.appsdeveloperblog.ws.api</groupId>
 	<artifactId>ResourceServer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ResourceServer</name>
-	<description>project for Spring Boot</description>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>17</java.version>
@@ -37,7 +37,7 @@
 			<optional>true</optional>
 		</dependency>
 
-	
+		
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -53,11 +53,6 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>com.appsdeveloper.ws.api</groupId>
-			<artifactId>albums</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	
